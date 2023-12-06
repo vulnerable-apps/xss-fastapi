@@ -1,2 +1,2 @@
 # xss-fastapi
-Recreation of https://xss-game.appspot.com/
+Recreation of https://xss-game.appspot.com/ using Fastapi
