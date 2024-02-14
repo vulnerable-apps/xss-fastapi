@@ -1,11 +1,14 @@
 ---
-version: "3.9"
+version: "3"
 services:
-  api:
+  xssfastapi:
     build:
       context: "."
     ports:
       - "8000:8000"
     volumes:
       - ".:/app"
-    init: true
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
+    # init: true
